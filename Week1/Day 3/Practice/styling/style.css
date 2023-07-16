@@ -1,0 +1,17 @@
+.box1{
+    background-color: black;
+    color: white;
+}
+span{
+    color: aqua;
+}
+.box2{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+.box3{
+    background-color: cornflowerblue;
+    color: darkblue;
+    text-align: right;
+}
