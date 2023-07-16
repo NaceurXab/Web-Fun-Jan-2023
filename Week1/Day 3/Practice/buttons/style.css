@@ -1,0 +1,28 @@
+.container{
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.box1,.box2,.box3{
+    margin-top: 10px;
+}
+.box1 button{
+    background-color: white;
+    color: mediumseagreen;
+    border-color: mediumseagreen; 
+    border-radius: 10px;
+    width: 100px;
+}
+.box2 button{
+    background-color: mediumaquamarine;
+    color:white;
+    border-radius: 50%;
+    border-color: mediumaquamarine;
+    width: 30px;
+    height: 30px;
+}
+.box3 button {
+    background-color: blue;
+    color: white;
+    border-color: black;
+    box-shadow: 5px 5px black;
+}
