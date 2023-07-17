@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+h1,p{
+    text-align: center;
+    color: grey;
+}
+.box1{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box2{
+    background-color:palevioletred;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box3{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1,.box2,.box3{
+    margin: 10px;
+    padding: 10px;
+}
