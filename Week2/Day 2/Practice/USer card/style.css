@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: O;
+}
+body{
+    padding: 10% 20% 20% ;
+}
+.head{
+    padding-top: 60px;
+    padding-left: 30px;
+    height: 30px;
+    background-color: blue;
+}
+.head img{
+    position: absolute;
+    height: 70px;
+    width: 60px;
+}
+img{
+    height: 20px;
+    width: 20px;
+    display: inline;
+}
+.info {
+    padding-top: 40px;
+    padding-left: 20px;
+    border: solid;
+    border-color: gray;
+}
+div.box{
+    display:flex;
+
+}
