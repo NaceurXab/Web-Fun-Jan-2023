@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1{
+    width: 300px;
+    margin: 50px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.btn {
+    height: 29px;
+    width: 80px;
+    background-color: #ffd966;
+    color: black;
+    border: 3px solid black;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
+.user,.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.user{
+    padding-bottom: 10px;
+}
+.start{
+
+}
