@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+.top{
+    background-color: #9fc5f8;
+}
+.head{
+    width: 1080px;
+    margin: 0 auto;
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links {
+    font-size: 25px;
+    font-weight: bold;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.container{
+    background-color: #f3f3f3;
+    width: 1080px;
+    margin:0 auto;
+}
+.choose{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid black;
+    background-color: #ffffff;
+}
+#temp{
+    border: 3px solid black;
+}
+.weather{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    background-color: #ffffff;
+}
+.case1,.case2,.case3,.case4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+.weather img{
+    border-radius: 50%;
+}
+.numbers{
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+}
+.high{
+    color: red;
+}
+.low{
+    color: blue;
+}
+.cookies{
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    height: 130px;
+    width: 1080px;
+    position:fixed;
+}
+.im{
+    width: 100px;
+    text-align: center;
+}
+.thebtn{
+    width: 150px;
+}
+.btn{
+    height: 45px;
+    width: 90px;
+    background-color: #9fc5f8;
+    color: #ffffff;
+    border: 3px solid black;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
